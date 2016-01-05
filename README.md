@@ -1,17 +1,17 @@
-# a6 angularjs http
+# a7 angularjs table
 
-Tutorial sobre angularjs http ... 
+Tutorial sobre angularjs tablas ... 
 
-El servicio http de angularJS hacen mas sencillo la codificacion de aplicaciones web.
+Las tablas en angularJS hacen mas sencillo la creacion de vistas de datos para aplicaciones Web.
 
 #Video 
 
-https://youtu.be/SHDJxQiNPmI
+https://www.youtube.com/watch?v=M-4chxmxssg&feature=youtu.be
 
 #Blog
 
-https://javascriptx.wordpress.com/2015/12/02/desarrollo-de-aplicaciones-web-con-angularjs-http/
+http://wp.me/p3zHUT-71
 
 #Ejemplo en Vivo
 
-https://angularjshttp.herokuapp.com/
+https://angularjstable.herokuapp.com/
