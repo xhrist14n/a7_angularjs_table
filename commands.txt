@@ -1,0 +1,4 @@
+heroku addons:add memcachier
+heroku addons:add cleardb
+heroku config > .env
+heroku config:set BUILDPACK_URL="https://github.com/heroku/heroku-buildpack-multi.git"

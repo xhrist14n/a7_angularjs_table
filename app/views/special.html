@@ -1,0 +1,42 @@
+<div class="row marketing">
+
+    <div class="jumbotron" ng-controller="SpecialCtrl">
+        <div class="container">
+            <table width="100%">
+                <tr ng-repeat="x in nombres">
+                    <td width="33%">
+                        <strong>
+                            {{ $index + 1 }}
+                        </strong>
+                        
+                    </td>
+                    <td ng-if="$odd" style="background-color:#98f143" width="33%">
+                        <strong>
+                            {{ x.nombre}}
+                        </strong>
+                        
+                    </td>
+                    <td ng-if="$even" width="33%">    
+                        <strong>
+                            {{ x.nombre}}
+                        </strong>
+                        
+                    </td>
+                    <td ng-if="$odd" style="background-color:#f1f154" width="33%">
+                        <strong>
+                            {{ x.pais | uppercase }}
+                        </strong>
+                        
+                    </td>
+                    <td ng-if="$even" width="33%">
+                        <strong>
+                            {{ x.pais | uppercase }}
+                        </strong>
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>	​
+
+</div>
